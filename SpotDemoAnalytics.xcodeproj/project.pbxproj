@@ -13,6 +13,10 @@
 		BFEE4B511B2732A300F176C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEE4B501B2732A300F176C6 /* Images.xcassets */; };
 		BFEE4B541B2732A300F176C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFEE4B521B2732A300F176C6 /* LaunchScreen.xib */; };
 		BFEE4B601B2732A300F176C6 /* SpotDemoAnalyticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE4B5F1B2732A300F176C6 /* SpotDemoAnalyticsTests.swift */; };
+		BFEE4BA01B288F7700F176C6 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE4B9F1B288F7700F176C6 /* Tip.swift */; };
+		BFEE4BA21B288FA600F176C6 /* TipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFEE4BA11B288FA600F176C6 /* TipView.xib */; };
+		BFEE4BA41B288FB700F176C6 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE4BA31B288FB700F176C6 /* TipViewController.swift */; };
+		BFEE4BA61B289D9800F176C6 /* TipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEE4BA51B289D9800F176C6 /* TipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		BFEE4B591B2732A300F176C6 /* SpotDemoAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotDemoAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEE4B5E1B2732A300F176C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFEE4B5F1B2732A300F176C6 /* SpotDemoAnalyticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotDemoAnalyticsTests.swift; sourceTree = "<group>"; };
+		BFEE4B9F1B288F7700F176C6 /* Tip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		BFEE4BA11B288FA600F176C6 /* TipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipView.xib; sourceTree = "<group>"; };
+		BFEE4BA31B288FB700F176C6 /* TipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		BFEE4BA51B289D9800F176C6 /* TipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			children = (
 				BFEE4B491B2732A300F176C6 /* AppDelegate.swift */,
 				BFEE4B4B1B2732A300F176C6 /* ViewController.swift */,
+				BFEE4B9F1B288F7700F176C6 /* Tip.swift */,
+				BFEE4BA51B289D9800F176C6 /* TipView.swift */,
+				BFEE4BA11B288FA600F176C6 /* TipView.xib */,
+				BFEE4BA31B288FB700F176C6 /* TipViewController.swift */,
 				BFEE4B4D1B2732A300F176C6 /* Main.storyboard */,
 				BFEE4B501B2732A300F176C6 /* Images.xcassets */,
 				BFEE4B521B2732A300F176C6 /* LaunchScreen.xib */,
@@ -192,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEE4BA21B288FA600F176C6 /* TipView.xib in Resources */,
 				BFEE4B4F1B2732A300F176C6 /* Main.storyboard in Resources */,
 				BFEE4B541B2732A300F176C6 /* LaunchScreen.xib in Resources */,
 				BFEE4B511B2732A300F176C6 /* Images.xcassets in Resources */,
@@ -212,8 +225,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFEE4BA01B288F7700F176C6 /* Tip.swift in Sources */,
 				BFEE4B4C1B2732A300F176C6 /* ViewController.swift in Sources */,
+				BFEE4BA41B288FB700F176C6 /* TipViewController.swift in Sources */,
 				BFEE4B4A1B2732A300F176C6 /* AppDelegate.swift in Sources */,
+				BFEE4BA61B289D9800F176C6 /* TipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
